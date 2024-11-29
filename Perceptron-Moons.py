@@ -1,48 +1,4 @@
 
-
-
-#ububng1
-#import torch
-#torch.cuda.is_available()
-#torch.backends.mps.is_available()
-#torch.backends.cpu.get_cpu_capability()
-
-#print("CUDA verfügbar:", torch.cuda.is_available())
-#print("MPS verfügbar:", torch.backends.mps.is_available())
-#print("CPU-Fähigkeit:", torch.backends.cpu.get_cpu_capability())
-
- # Wie ich festgestellt habe, sollten die Ausgaben der Befehle:
-# •⁠  ⁠torch.cuda.is_available(): Prüft, ob CUDA verfügbar ist
-# •⁠  ⁠torch.backends.mps.is_available(): Prüft, ob MPS verfügbar ist
-# •⁠  ⁠torch.backends.cpu.get_cpu_capability(): Zeigt die CPU-Fähigkeiten an.
-#
-# Die Ausgaben, die ich erhalten habe, sind:
-# •torch.cuda.is_available(): false
-# •torch.backends.mps.is_available(): true
-# •torch.backends.cpu.get_cpu_capability(): kein avx
-#
-# die erwarteten Ausgaben sind:
-# •torch.cuda.is_available(): wenn ich eine NVIDIA GPU verwende, hätte ich true erwartet, aber da ich eine CPU verwende, ist es false
-# .torch.backends.mps.is_available(): true
-# •torch.backends.cpu.get_cpu_capability(): da ich eine CPU
-# verwende, habe ich erwartet, dass es Fähigkeiten hat, aber „no AVX“ zeigt an, dass meine CPU kein
-# AVX unterstützt, was Pytorch langsamer laufen lässt als Systeme mit AVX-Unterstützung.
-#
-# Wenn ich zwischen der Berechnung auf meiner CPU oder einem Tensor-Beschleuniger (NVIDIA GPU)
-# wählen müsste, würde ich mich für einen Tensor-Beschleuniger entscheiden, da die Fähigkeiten meiner CPU nicht
-# wirklich hoch und verlässlich sind, um damit zu arbeiten, wenn ich PyTorch ausführe, und die Berechnung weniger optimiert
-# sein könnte; stattdessen erlaubt mir die Verwendung einer GPU, meine Arbeit zu optimieren, so dass ich mit komplexen Modellen mit großen Datenmengen arbeiten kann.
-
-
-
-
-
-
-#ubung2
-
-
-
-
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_moons
 from sklearn.model_selection import train_test_split

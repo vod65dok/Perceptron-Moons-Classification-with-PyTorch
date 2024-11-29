@@ -1,9 +1,9 @@
 # Perceptron-Moons-Classification-with-PyTorch
-Overview
+#Overview
 
 This project implements a binary classification model using a Perceptron in PyTorch. It highlights the limitations of Perceptrons on non-linear datasets, such as the "moons" dataset, while visualizing the decision boundary to provide insights into model performance and training dynamics.
 
-Features
+#Features
 
 Model Training: Train a Perceptron using PyTorch on the "moons" dataset.
 Custom Loss and Optimization: Implement custom loss computation and an optimization step.

@@ -15,14 +15,14 @@ The "moons" dataset, a popular synthetic dataset for classification tasks, is us
 Training Set: 70% of the data is used for training the model.
 Testing Set: 30% of the data is reserved for evaluation.
 Visualization: The decision boundary is visualized to showcase the model's limitations on non-linear data.
-Dependencies
+# Dependencies
 
 Ensure the following Python libraries are installed:
 
 torch (PyTorch)
-matplotlib
-scikit-learn
+. matplotlib
+. scikit-learn
 Install these dependencies using:
 
 pip install torch matplotlib scikit-learn
-This project serves as an educational tool for understanding Perceptrons and their challenges with non-linear datasets, with a practical demonstration of training and visualizing model performance.
+

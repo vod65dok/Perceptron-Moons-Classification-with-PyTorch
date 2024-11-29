@@ -1,7 +1,4 @@
 # Perceptron-Moons-Classification-with-PyTorch
-Perceptron Moons Classification with PyTorch
-
-This project showcases the implementation of a binary Perceptron classifier using PyTorch. It highlights the challenges faced by Perceptrons in handling non-linear data by applying the model to the "moons" dataset. Key features include training the model, evaluating its performance, and visualizing its decision boundary to gain a deeper understanding of its capabilities and limitations.
 
 # Overview
 
@@ -16,9 +13,9 @@ Dependencies
 
 The following Python libraries are required to run this project:
 
-torch
-matplotlib
-scikit-learn
+- `torch`
+- `matplotlib`
+- `scikit-learn 
 Install them via pip:
-
+```bash
 pip install torch matplotlib scikit-learn

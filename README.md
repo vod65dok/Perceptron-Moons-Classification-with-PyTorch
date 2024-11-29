@@ -15,7 +15,8 @@ The following Python libraries are required to run this project:
 
 - `torch`
 - `matplotlib`
-- `scikit-learn 
-Install them via pip:
+- `scikit-learn `
+  
+Install them via pip
 ```bash
 pip install torch matplotlib scikit-learn
